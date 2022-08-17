@@ -38,11 +38,10 @@ def print_spicy_foods(spicy_foods)
   # your code here
   spicy_foods.map{
     |spice|
-    puts "#{spice[:name]} (#{spice[:cuisine]}) | Heat Level: #{'🌶'*spice[:heat_level]}"
+    puts("#{spice[:name]} (#{spice[:cuisine]}) | Heat Level: #{'🌶'*spice[:heat_level]}")
   }
 end
 print_spicy_foods(spicy_foods)
-# pp(newss)
 
 
 # given an array of spicy foods and a string representing a cuisine, **return a single hash**  
